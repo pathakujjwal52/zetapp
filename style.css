@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+     box-sizing: border-box;
+}
+body{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    font-size: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+  
+}
+button{
+    background-color: rgb(18, 18, 221);
+    color: white;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+ul li{
+    margin-top: 30px;
+    color: black;
+}
+.container img{
+   padding-left: 100px;
+   max-width: 220px;
+   margin-top: 40px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+hr{
+    margin-top: 30px;
+}
+.box{
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    position: fixed;
+}
+.poster{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: aliceblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    margin-bottom: 10%;
+    padding: 10px;
+}
+
+.write{
+    
+    align-items: center; 
+    background-color: aliceblue;
+    margin-right: 10%;
+    margin-left: 8%;
+    margin-top: 5%;
+   
+}
+
+.write h1{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 52px;
+    margin-bottom: 55px;
+    
+
+}
+.write p{
+    font-size: 22px;
+    margin-bottom: 10px;
+    
+}
+.write h1 span {
+    color: rgb(38, 78, 255);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+.write img{
+    float: right;
+    padding-left: 100px;
+    max-width: 220px;
+   margin-top: 40px;
+    margin-bottom: 20%;
+    margin-right: 75%;
+}
+.right img{
+        margin-top: -4vw;
+        
+}
+
